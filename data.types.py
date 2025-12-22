@@ -108,3 +108,4 @@ print(type(number2))
 # "14" + "15"
 
 print(f"{number1} / {number2} = {number1 / number2}")
+
