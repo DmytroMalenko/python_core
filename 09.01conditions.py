@@ -1,5 +1,3 @@
-
-
 '''
 #Користувач вводить число. Дізнатись чи це число входить у діапазон від 10 до 20
 # Kalkulyator: + - * /
@@ -41,17 +39,12 @@ else:
     print("Невідомий оператор!")
 
 
-
-
-
-
 #number = int(input("Whrite  a number: "))
 
 #if number >= 10 and number <= 20:
 #    print(f"{number} true number")
 #else:
 #    print(f"{number} False number")
-
 
 print(f"True and True = {True and True}")
 print(f"False and True = {False and True}")
@@ -62,7 +55,6 @@ print(f"True or True = {True or True}")
 print(f"False or True = {False or True}")
 print(f"True or False = {True or False}")
 print(f"False or False = {False or False}")
-
 
 print(f'not False = {not False}')
 print(f'not True = {not True}')
@@ -118,7 +110,3 @@ print(f'Pinguins can fly: {can_pinguins_fly}')
 print(type(can_pinguins_swim))
 print(type(can_pinguins_fly))
 '''
-
-
-
-
