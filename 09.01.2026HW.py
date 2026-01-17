@@ -52,8 +52,6 @@ elif 11 <= monthnumber <= 12:
 else:
     print("Error, write 1-12!")
 
-
-
 #Task 3
 
 summa = float(input("Whrite, how many do you spend: "))
