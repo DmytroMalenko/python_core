@@ -34,8 +34,8 @@ while num2 >= num1:
         print(num2)
     num2 -= 1
 
-'''
-
+    
+    
 # Task 4
 
 num1 = int(input("Write first number: "))
@@ -50,3 +50,4 @@ elif ask == '2':
         num2 = - 1
 else: 
        print("Erorr")
+'''

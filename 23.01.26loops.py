@@ -35,7 +35,7 @@ while True:
 
      '''
 
-needed_potates = int (input("Wrote how many potates do you need: "))
+needed_potates = int (input("Write how many potates do you need: "))
 peeled_potates = 0
 
 while peeled_potates < needed_potates:
