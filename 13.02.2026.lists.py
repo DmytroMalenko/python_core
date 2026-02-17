@@ -41,12 +41,13 @@ print(fruits_count)
 
 counter = 0
 while counter < len(fruits):
-    print(fruits[counter])
+    print(fruits[counter], ' ')
     counter += 1
+
 print()
 
-for fruits in fruits:
-    print(fruits)
+for fruit in fruits:
+    print(fruit, end= ' ')
 
 
 names = input("Write lists of names: ")
