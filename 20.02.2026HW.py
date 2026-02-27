@@ -1,12 +1,34 @@
-#friends = {'Anton', 'Vanya', 'Stas', 'Kirill', 'John', 'Nikita', 'Roma', 'Maxim', 'Timur'}
-#plays = {'Minecraft', 'Fortnite', 'Roblox', 'GTA 5', 'Rust'}
+# Task 1
+'''
+word = str(input("Write English word: "))
 
-#all =  friends.union(plays)
-#all = friends | plays
-#print(', '.join(all))
+dictionary = {
+    'Hello': 'Привіт',
+    'House': 'Дім',
+    'job': 'робота',
+    'colleague': 'колега',
+    'salary': 'зарплата',
+    'contract': 'договір',
+    'skills': 'навички',
+    'office': 'офіс',
+    'meeting': 'зустріч',
+    'deadline': 'дедлайн ',
+    'task': 'завдання',
+    'training': 'навчання',
+    'Chat': 'Чат',
+    'How are you?': 'Як ти?',
+    'Car': 'Машина',
+    'Good bye': 'До зустрічі'
+}
+
+if word in dictionary:
+        print(word,'—>', dictionary[word])
+else:
+    print("Erorr, wrong word or word with mistake.")
+
+'''
 
 text = str(input("Write play in which  your friends play together: "))
-
 list1 = str(input("Do you want to see list of yours friends?: "))
 
 friends = {
@@ -78,6 +100,12 @@ elif text == 'GTA_5':
     print(friends['Friend6']['Name'])
 else: 
     print("Erorr")
+
+
+
+
+
+
 
 
 
