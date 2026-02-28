@@ -30,7 +30,6 @@ else:
 # Task 2
 text = str(input("Write play in which  your friends play together: "))
 list1 = str(input("Do you want to see list of yours friends?: "))
-
 friends = {
  'Friend1': {
     'Name': 'Anton',
