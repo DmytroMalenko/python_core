@@ -164,7 +164,6 @@ for num in my_list: # inperativni
         even.append(num)
 
 
-
 even_number = list(filter(lambda a: a % 2 == 0, my_list)) # deklarativni
 
 print(even_number)
