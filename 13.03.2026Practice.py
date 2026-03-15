@@ -64,7 +64,7 @@ while(True):
     except ZeroDivisionError:
         print("Your list is empty!")
     finally:
-        print("Завершення обчислень")
+        print("Завершення обчислень.")
     break
 
 
