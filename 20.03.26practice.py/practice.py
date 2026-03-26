@@ -101,21 +101,23 @@ while True:
             with open('music_collection.txt', 'r') as f:
                 lines = f.readlines()
                 print(lines)
-        else: 
+        if not lines:
             print("Collection is empty!")
 
-        if chose == '3':
+        elif chose == '3':
             performer = input("Name of performer: ")
             with open('music_collection.txt', 'r') as f:
                 text = f.read()
+                print(text)
                 lines = text.split('\n')
+                found = False
         for line in lines:
             if '|' in line and performer.lower() in line.lower():
-                print(f"{line.strip()}")
-        else: 
-            print("Not found!")
+                print(line.strip())
+        if not found:
+                print("Not found!")
     
-        if chose == '4':
+        elif chose == '4':
             name = input("Name of album to delete: ")
             with open('music_collection.txt', 'r') as f:
                 lines = f.readlines()
@@ -125,13 +127,14 @@ while True:
             album_name = line.strip().split('|')[0]
         if album_name.lower() != name.lower():
                 new_lines.append(line)
+                print("Album deleted!")
 
-        if chose == "5":
+        elif chose == "5":
             print("Quit.")
-        break
+            break
+
     except FileNotFoundError:
         print("File is empty!")
-
     finally:
         input("END.")
 
