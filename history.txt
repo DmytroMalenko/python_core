@@ -1,0 +1,5 @@
+Dima | university | LOSE | attempts used: 8
+banana | WIN | attempts used: 3
+transcription | WIN | attempts used: 11
+key | WIN | attempts used: 0
+welcome | LOSE | attempts used: 8

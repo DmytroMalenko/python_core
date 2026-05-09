@@ -36,4 +36,10 @@ from math import sqrt
 
 print(sqrt(9))
 '''
- 
+
+def f(a,b=5):
+    return a + b
+
+
+
+print(f(3))

@@ -1,0 +1,4 @@
+Which country has the most time zones?|USA|France|China|Japan|France
+What is the smallest country in the world by land area?|Monaco|San Marino|Vatican City|Liechtenstein|Vatican City
+What is the capital city of Australia?|Sydney|Melbourne|Canberra|Brisbane|Canberra
+

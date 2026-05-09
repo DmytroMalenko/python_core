@@ -1,0 +1,4 @@
+Which country has won the most FIFA World Cups in history?|Germany|Italy|Brazil|Argentina|Brazil
+How many players are on the field for one team in a standard soccer (football) match?|9|10|11|12|11
+What is the standard length of an Olympic-sized swimming pool in meters?|25|50|75|100|50
+Which city is scheduled to host the Summer Olympics in 2028?|Paris|Tokyo|Los Angeles|Brisbane|Los Angeles
